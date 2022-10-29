@@ -308,6 +308,9 @@ footer {
 .section {
   padding: 94px 0;
 }
+.about {
+  padding-bottom: 94px;
+}
 /* portfolio */
 
 .list-sorting {
