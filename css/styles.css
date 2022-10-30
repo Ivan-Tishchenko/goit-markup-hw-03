@@ -39,12 +39,16 @@ img {
   height: auto;
 }
 
-body {
+#body {
   color: var(--main-color);
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   background-color: var(--revers-color);
   letter-spacing: 0.03em;
+}
+
+* {
+  /* font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
 /* header-footer */
@@ -126,7 +130,7 @@ address {
   color: var(--revers-color);
 }
 
-.addres-item + .addres-item{
+.addres-item + .addres-item {
   margin-top: 9px;
 }
 
@@ -244,6 +248,7 @@ footer {
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .benefits:not(:last-child) {
@@ -296,12 +301,15 @@ footer {
 
 .employee-position > h3 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .employee-position > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
   text-align: center;
-  font-size: 14px;
-  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--sup-color);
 }
 
@@ -366,10 +374,13 @@ footer {
   background: var(--revers-color);
 }
 
-.exemple-description {
+.example-description {
   background: var(--revers-color);
   border: 1px solid #eeeeee;
   width: 370 px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .name-example {
@@ -378,8 +389,6 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 
@@ -389,9 +398,6 @@ footer {
   line-height: 1.875;
 
   color: var(--sup-color);
-  margin-left: 24px;
-  margin-top: 0;
-  margin-bottom: 20px;
 }
 
 .visually-hidden {
